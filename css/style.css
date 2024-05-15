@@ -1,0 +1,21 @@
+figcaption.caption{
+     transform: translateY( 109%);
+     bottom: 8px;
+     left: 8px;
+     right: 8px;
+     transition: .7s all;
+}
+
+img:hover + figcaption.caption{
+    transform: translateY( 0%);
+    transition: .7s all;
+
+}
+
+.inner{
+    background-image: url(../img/1.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+}
